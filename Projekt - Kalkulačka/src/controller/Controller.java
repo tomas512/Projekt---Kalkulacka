@@ -3,9 +3,13 @@ package controller;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.scene.input.MouseEvent;
+import javafx.scene.canvas.Canvas;
 
 public class Controller {
 
+	@FXML
+	private Canvas canvas;
+	
 	@FXML
 	private void initialize(){
 		EventHandler<MouseEvent> handler = new EventHandler<MouseEvent>(){
@@ -17,5 +21,6 @@ public class Controller {
 		}
 		
 		};
+		canvas.addEventHandler(MouseEvent.MOUSE_CLICKED,handler);
 	}
 }
