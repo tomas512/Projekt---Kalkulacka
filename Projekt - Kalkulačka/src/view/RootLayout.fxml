@@ -8,17 +8,62 @@
    <top>
       <TextField BorderPane.alignment="CENTER" />
    </top>
-   <center>
-      <BorderPane prefHeight="600.0" prefWidth="800.0" BorderPane.alignment="CENTER">
+   <bottom>
+      <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <top>
+            <Button mnemonicParsing="false" onAction="#handleButtonAction" text="9" BorderPane.alignment="CENTER" />
+         </top>
          <left>
-            <Button mnemonicParsing="false" prefHeight="163.0" prefWidth="160.0" text="9" BorderPane.alignment="CENTER" />
+            <Button mnemonicParsing="false" onAction="#handleButtonAction" text="8" BorderPane.alignment="CENTER" />
          </left>
          <center>
-            <Button mnemonicParsing="false" prefHeight="160.0" prefWidth="155.0" text="8" BorderPane.alignment="CENTER" />
+            <Button mnemonicParsing="false" onAction="#handleButtonAction" text="7" BorderPane.alignment="CENTER" />
          </center>
          <right>
-            <Button mnemonicParsing="false" prefHeight="181.0" prefWidth="164.0" text="7" BorderPane.alignment="CENTER" />
+            <Button mnemonicParsing="false" onAction="#handleButtonAction" text="6" BorderPane.alignment="CENTER" />
          </right>
+         <bottom>
+            <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <top>
+                  <Button mnemonicParsing="false" onAction="#handleButtonAction" text="5" BorderPane.alignment="CENTER" />
+               </top>
+               <left>
+                  <Button mnemonicParsing="false" onAction="#handleButtonAction" text="4" BorderPane.alignment="CENTER" />
+               </left>
+               <center>
+                  <Button mnemonicParsing="false" onAction="#handleButtonAction" text="3" BorderPane.alignment="CENTER" />
+               </center>
+               <right>
+                  <Button mnemonicParsing="false" onAction="#handleButtonAction" text="2" BorderPane.alignment="CENTER" />
+               </right>
+               <bottom>
+                  <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                     <top>
+                        <Button mnemonicParsing="false" onAction="#handleButtonAction" text="1" BorderPane.alignment="CENTER" />
+                     </top>
+                     <left>
+                        <Button mnemonicParsing="false" onAction="#handleButtonAction" text="+" BorderPane.alignment="CENTER" />
+                     </left>
+                     <center>
+                        <Button mnemonicParsing="false" onAction="#handleButtonAction" text="-" BorderPane.alignment="CENTER" />
+                     </center>
+                     <right>
+                        <Button mnemonicParsing="false" onAction="#handleButtonAction" text="x" BorderPane.alignment="CENTER" />
+                     </right>
+                     <bottom>
+                        <BorderPane prefHeight="138.0" prefWidth="205.0" BorderPane.alignment="CENTER">
+                           <top>
+                              <Button mnemonicParsing="false" onAction="#handleButtonAction" text="÷" BorderPane.alignment="CENTER" />
+                           </top>
+                           <center>
+                              <Button mnemonicParsing="false" onAction="#handleButtonAction" text="=" BorderPane.alignment="CENTER" />
+                           </center>
+                        </BorderPane>
+                     </bottom>
+                  </BorderPane>
+               </bottom>
+            </BorderPane>
+         </bottom>
       </BorderPane>
-   </center>
+   </bottom>
 </BorderPane>

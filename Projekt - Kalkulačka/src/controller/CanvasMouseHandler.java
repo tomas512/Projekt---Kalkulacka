@@ -23,6 +23,7 @@ public class CanvasMouseHandler {
 		};
 		canvas.addEventHandler(MouseEvent.MOUSE_CLICKED,handler);
 	}
+	
 }
 		
 	
