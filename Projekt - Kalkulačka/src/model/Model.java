@@ -1,7 +1,7 @@
 package model;
 
 public class Model {
-	public long calculate(long number1, long number2, String operator) {
+	public double calculate(long number1, long number2, String operator) {
         switch (operator) {
             case "+":
                 return number1 + number2;
