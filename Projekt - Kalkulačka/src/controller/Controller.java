@@ -45,7 +45,7 @@ public class Controller {
 
 	            operator = value;
 	            cislo1 = Long.parseLong(texto.getText());
-	            texto.setText("");
+	            texto.setText("" + cislo1 + operator);
 	        }
 	        else {
 	            if (operator.isEmpty())

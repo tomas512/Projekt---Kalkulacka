@@ -13,7 +13,7 @@ public class Model {
                 if (number2 == 0)
                     return 0;
 
-                return number1 / number2;
+                return 1.0*number1 / number2;
         }
 
         System.out.println("Unknown operator - " + operator);
