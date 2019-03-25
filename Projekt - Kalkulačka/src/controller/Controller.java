@@ -15,6 +15,7 @@ public class Controller {
     private Text texto;
 	
 	private long cislo1 = 0;
+	private long cislo2 = 0;
 	private String operator = "";
 	private boolean start = true;
 
@@ -50,8 +51,9 @@ public class Controller {
 	        else {
 	            if (operator.isEmpty())
 	                return;
-
-	            texto.setText(String.valueOf(model.calculate(cislo1, Long.parseLong(texto.getText()), operator)));
+	            
+	            cislo2 = Long.parseLong(texto.getText());
+	            texto.setText(String.valueOf(model.calculate(cislo1, cislo2, operator)));
 	            operator = "";
 	            start = true;
 	        }
